@@ -63,12 +63,12 @@ if opciones == 1:
 elif opciones == 2:
     print('Que bien escogiste la opcion de aproximacion, este es un poco mas rapido y exacto que el de raiz cuadrada')
     numero = int(input('Dime un numero del que quieras saber la raiz cuadrada: '))
-    variable_epsilon = float(input('Dime que porcentaje de error acepta, escoge un numero menor a 0.01'))
+    variable_epsilon = float(input('Dime que porcentaje de error acepta, escoge un numero menor a 0.01: '))
     aproximacion(numero, variable_epsilon)
 elif opciones == 3:
     print('Que bien escogiste la opcion de busqueda binaria, este es el metodo mas rapido y exacto de todos')
     numero = int(input('Dime un numero del que quieras saber la raiz cuadrada: '))
-    variable_epsilon = float(input('Dime que porcentaje de error acepta, escoge un numero menor a 0.01'))
+    variable_epsilon = float(input('Dime que porcentaje de error acepta, escoge un numero menor a 0.01: '))
     busqueda_binaria(numero, variable_epsilon)
 else:
     print('Algo hiciste mal')
